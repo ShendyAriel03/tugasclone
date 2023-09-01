@@ -1,0 +1,108 @@
+header
+.Header {
+    display: flex;
+    flex-direction: column;
+}
+.Header .HeaderTop {
+    background: #000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+.Header .HeaderLeftNav {
+    margin-left: 10px;
+    padding: 5px 5px 2px 5px;
+    color: #fff;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+.Header .Logo {
+    width: 100px;
+    object-fit: cover;
+    margin: 18px 20px 20px;
+}
+
+/* search */
+.Header .HeaderSearch {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 26px;
+}
+.Header .HeaderSearch .HeaderSearchbox {
+    height: 35px;
+    width: 100%;
+    padding: 10px;
+}
+.Header .HeaderSearch .SearchIcon {
+    height: 37px;
+    background: #cd9042;
+    cursor: pointer;
+}
+
+.Header .HeaderNavbar, .Header .HeaderNavbar span {
+    display: flex;
+    justify-content: center;
+}
+.HeaderLink:first-child{
+    width: 120px;
+
+}
+.HeaderLink {
+    color: #fff;
+}
+.HeaderNavbar .HeaderOptions, .HeaderAddres .HeaderOptions {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.Header .HeaderNavbar .HeaderOptions .HeaderOptionOn, .HeaderAddres .HeaderOptionOne {
+    font-size: 12px;
+}
+.Header .HeaderNavbar .HeaderOptions .HeaderOptionTwo,
+.HeaderAddres .HeaderOptions .HeaderOptionTwo {
+    font-size: 14px;
+    font-weight: 900;
+}
+.Header .HeaderOptionsBasket {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.Header .HeaderOptionsBasket .BasketCount {
+    font-size: 16px;
+    border: 1px  solid #fff !important;
+    border-radius: 100px;
+    margin: 15px 15px 0px -10px;
+    padding: 2px 4px;
+    font-weight: 800;
+}
+.HeaderBottom {
+    background: #000;
+    padding-top: 5px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.HeaderAddres {
+    display: flex;
+}
+.HeaderAddres .HeaderAddresIcon{
+    vertical-align: middle;
+    cursor: pointer;
+}
+.HeaderBottomNavbar{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.HeaderBottomNavbar span{
+    font-size: 14px;
+    font-weight: 7700;
+    margin-left: 10px;
+
+}
